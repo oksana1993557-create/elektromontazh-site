@@ -29,6 +29,6 @@
     // Демонстрационный режим: адрес получателя задаётся после согласования контактов.
     // Не показываем ложное сообщение «заявка отправлена».
     const subject = encodeURIComponent('Заявка с сайта Электромонтаж');
-    window.location.href = `mailto:?subject=${subject}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:elektrika-blag@yandex.ru?subject=${subject}&body=${encodeURIComponent(body)}`;
   });
 })();
